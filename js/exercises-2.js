@@ -25,8 +25,8 @@ function maxOfThree(x, y, z){
 
 function isVowel(char){
     if(char = "a,e,i,o,u".split(",")){
-   return true;}
-    else {
+   return true;
+ }  else {
     return false;
   };
  }
