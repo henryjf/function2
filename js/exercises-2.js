@@ -37,12 +37,12 @@ function isVowel(char){
 // Write a function translate() that will translate a text into "Rovarspraket". That is, double every consonant and place an occurrence of "o" in between. For example, translate("this is fun") should return the string "tothohisos isos fofunon".
 // ---------------------
 
-// function rovarspraket(phrase){
-//   var letter =
-//     if(letter = "a,e,i,o,u".split(",")){
-//       return letter;
-//     }  else { return letter +=letter}
-//     }
+function rovarspraket(phrase){
+  var letter =
+    if(letter = "a,e,i,o,u".split(",")){
+      return letter;
+    }  else { return letter +=letter}
+    }
 
 
 
@@ -53,4 +53,4 @@ function isVowel(char){
 function reverse(string){
   return string.split('').reverse().join('');
 }
-console.log(reverse('I am cool!'));
+// console.log(reverse('I am cool!'));
