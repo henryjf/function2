@@ -69,14 +69,6 @@ function greaterThan (x, y) {
 // is formated like "Hello, Name!" where *Name*
 // is the parameter that was passed in.
 
-// function greet (name) {
-//   return name;
-// }
-// console.log(greet('Jeff'));
-// var name = "Jeff";
-// var greeting = "Hello, " + name +"!";
-// console.log(greet)
-
 function greet (name) {
   return "Hello, " + name +"!";
 }
